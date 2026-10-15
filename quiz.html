@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Test your phishing awareness knowledge.">
+  <title>Knowledge Check | SafeClick</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="quiz.js" defer></script>
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href="index.html"><span class="brand-icon">S</span> SafeClick <span class="brand-sub">Cyber Awareness</span></a>
+    <div class="navlinks"><a href="index.html">Overview</a><a href="recognize.html">Recognize Phishing</a><a class="active" href="quiz.html">Knowledge Check</a></div>
+  </nav>
+  <main class="page-wrap inner-page">
+    <header class="page-heading"><p class="eyebrow">PAGE 3 • PUT IT INTO PRACTICE</p><h1>Would you spot the phish?</h1><p>Answer these five questions. Your answers are checked in your browser only; this demo does not send or save them.</p></header>
+    <div class="quiz-layout">
+      <form id="quiz-form" class="quiz-form">
+        <fieldset class="question"><legend><span>01</span> A message says your account will be closed in five minutes unless you enter your password. What should you do?</legend>
+          <label><input type="radio" name="q1" value="a" required> Click immediately so you do not lose access.</label>
+          <label><input type="radio" name="q1" value="b"> Verify independently through the official website or support channel.</label>
+          <label><input type="radio" name="q1" value="c"> Reply and ask the sender to confirm your password.</label>
+        </fieldset>
+        <fieldset class="question"><legend><span>02</span> The display name looks familiar, but the full sender address is strange. What is the best next step?</legend>
+          <label><input type="radio" name="q2" value="a" required> Trust it because the logo is correct.</label>
+          <label><input type="radio" name="q2" value="b"> Open the attachment to see what it is.</label>
+          <label><input type="radio" name="q2" value="c"> Treat it as suspicious and verify through a trusted channel.</label>
+        </fieldset>
+        <fieldset class="question"><legend><span>03</span> Someone claiming to be IT support asks you for a one-time login code. You should:</legend>
+          <label><input type="radio" name="q3" value="a" required> Never share the code; contact support using a known channel.</label>
+          <label><input type="radio" name="q3" value="b"> Share it if they know your name.</label>
+          <label><input type="radio" name="q3" value="c"> Send it only by email.</label>
+        </fieldset>
+        <fieldset class="question"><legend><span>04</span> You clicked a suspicious link and entered your password. What should you do?</legend>
+          <label><input type="radio" name="q4" value="a" required> Ignore it unless money disappears.</label>
+          <label><input type="radio" name="q4" value="b"> Change the password on the genuine site, secure sessions, and notify support.</label>
+          <label><input type="radio" name="q4" value="c"> Send the same password to IT so they can test it.</label>
+        </fieldset>
+        <fieldset class="question"><legend><span>05</span> A supplier emails new bank details and asks for an urgent transfer. What is safest?</legend>
+          <label><input type="radio" name="q5" value="a" required> Transfer quickly to avoid a late fee.</label>
+          <label><input type="radio" name="q5" value="b"> Reply to the same email asking if it is real.</label>
+          <label><input type="radio" name="q5" value="c"> Verify the change using a known phone number or approved process.</label>
+        </fieldset>
+        <button class="button primary submit-button" type="submit">Check my answers</button>
+        <button class="button secondary reset-button" type="reset">Try again</button>
+      </form>
+      <aside class="quiz-aside"><div class="aside-icon">✓</div><h2>Before you submit</h2><p>Remember these three actions:</p><ul><li>Pause when a message pressures you.</li><li>Verify the sender and destination.</li><li>Report and recover quickly if needed.</li></ul><div class="result-box" id="result" role="status" aria-live="polite"><strong>Your result will appear here.</strong><p>Complete all five questions to see your score and feedback.</p></div></aside>
+    </div>
+    <div class="page-nav"><a class="button secondary" href="recognize.html">← Review warning signs</a><a class="text-link" href="index.html">Back to overview ↑</a></div>
+    <footer><span>SafeClick • Phishing Awareness Training</span><span>Educational demo — no information is collected.</span></footer>
+  </main>
+</body>
+</html>
